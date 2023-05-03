@@ -31,7 +31,12 @@ h2 {
   margin-bottom: 10px;
 }
 
-p {
+.nivel-de-atividade{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.info-p {
   margin-bottom: 10px;
 }
 
@@ -71,6 +76,8 @@ input[type="radio"] {
   margin-right: 5px;
   margin-bottom: 40px;
 }
+
+
 
 /* Estilos para a seção de informações */
 .info {

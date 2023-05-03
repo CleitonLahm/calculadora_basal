@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" href="style.css"> -->
   <link rel="stylesheet" href="style2.css">
   <title>Calculadora Basal</title>
 </head>
@@ -26,17 +25,19 @@
       <input type="number" id="idade">
       <br>
       <button onclick="calcular()">Calcular</button>
-    <p>Taxa Metabólica Basal: <span id="tmb"></span> calorias/dia</p>
-    <p>Sedentários: <span id="sedentario"></span> calorias/dia</p>
-    <p>Levemente Ativo: <span id="leve"></span> calorias/dia</p>
-    <p>Moderadamente Ativo: <span id="moderado"></span> calorias/dia</p>
-    <p>Altamente Ativo: <span id="alto"></span> calorias/dia</p>
-    <p>Extremamente Ativo: <span id="extremo"></span> calorias/dia</p>
+    <p class="nivel-de-atividade">Taxa Metabólica Basal: <span id="tmb"></span> calorias/dia</p>
+    <div class="atividade">
+      <p class="nivel-de-atividade">Sedentários: <span id="sedentario"></span> calorias/dia</p>
+      <p class="nivel-de-atividade">Levemente Ativo: <span id="leve"></span> calorias/dia</p>
+      <p class="nivel-de-atividade">Moderadamente Ativo: <span id="moderado"></span> calorias/dia</p>
+      <p class="nivel-de-atividade">Altamente Ativo: <span id="alto"></span> calorias/dia</p>
+      <p class="nivel-de-atividade">Extremamente Ativo: <span id="extremo"></span> calorias/dia</p>
+    </div>
     <script src="script.js"></script>
   </div>
   <div class="info container">
     <h2>Como perder peso</h2>
-    <p>O ideal é que não se consumam menos calorias que o necessário para manter a taxa de metabolismo basal (TMB) por longos períodos.
+    <p class="info-p">O ideal é que não se consumam menos calorias que o necessário para manter a taxa de metabolismo basal (TMB) por longos períodos.
       O ideal seria fazer um deficit calórico de aproximadamente 500 calorias, ou seja, se seu corpo gasta 2500 calorias por dia, você pode ingerir cerca de 2000 calorias para iniciar o processo de emagrecimento</p>
   </div>
 </body>
